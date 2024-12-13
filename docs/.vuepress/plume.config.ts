@@ -6,27 +6,27 @@ import {zhNotes} from "./notes";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+    logo: 'https://theme-plume.vuejs.press/plume.png',
 
-  appearance: true,
+    appearance: true,
 
-  social: [
-    {icon: 'github', link: '/'},
-  ],
+    social: [
+        {icon: 'github', link: '/'},
+    ],
 
-  locales: {
-    '/': {
-      profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'Garlic Agents 文档',
-        description: 'Garlic Agents 文档',
-        // circle: true,
-        // location: '',
-        // organization: '',
-      },
+    locales: {
+        '/': {
+            profile: {
+                avatar: 'https://theme-plume.vuejs.press/plume.png',
+                name: 'Garlic Agents 文档',
+                description: 'Garlic Agents 文档',
+                // circle: true,
+                // location: '',
+                // organization: '',
+            },
 
-      navbar: zhNavbar,
-      notes: zhNotes,
+            navbar: zhNavbar,
+            notes: zhNotes,
+        },
     },
-  },
 })
